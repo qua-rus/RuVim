@@ -2,12 +2,12 @@
 " layout English-US 104 key 'QWERTY'
 "
 " Maintainer:	 Restorer, <restorer@mail2k.ru>
-" Last Changed:	 25 Apr 2023
-" Version:	 3.3
+" Last Changed:	 23 Mar 2024
+" Version:	 4.0
 " Description:	 описание дано после изображений клавиатуры
 
 " Расположение символов для русского языка при подключенном файле с раскладкой
-" клавиатуры «русская типографская» (russian-typograph.vim). Версия 3.3
+" клавиатуры «русская типографская» (russian-typograph.vim). Версия 4.0
 
 
 "		  Ни одна из клавиш модификаторов не нажата
@@ -52,6 +52,20 @@
 "	  | Shift  |   |   |   |   |   |   |   |   |   |   |  Shift   |
 "	  |------,-',--'--,'---'---'---'---'---'---'-,-'---',--,------|
 "	  | Ctrl |  | ALT |          NNBSP           | ALT  |  | Ctrl |
+"	  '------'  '-----'--------------------------'------'  '------'
+
+"			     Нажата клавиша CTRL
+
+"	  ,---,---,---,---,---,---,---,---,---,---,---,---,---,-------,
+"	  |   |   |   |   |   |   |   |   |   |   |   |   |   | <---  |
+"	  |---'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-----|
+"	  | ->| |   |   |   |   |   |   |   |   |   |   | ␛ | ␝ |  \  |
+"	  |-----',--',--',--',--',--',--',--',--',--',--',--',--'-----|
+"	  | Caps |   |   |   |   |   |   |   |   |   |   |   |  Enter |
+"	  |------'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'--------|
+"	  | Shift  |   |   |   |   |   |   |   |   |   |   |  Shift   |
+"	  |------,-',--'--,'---'---'---'---'---'---'-,-'---',--,------|
+"	  | CTRL |  | Alt |          NNBSP           | Alt  |  | CTRL |
 "	  '------'  '-----'--------------------------'------'  '------'
 
 
@@ -218,6 +232,12 @@ loadkeymap
 "	The ALT key pressed
 <A-char-0x005b>	    <char-0x005b>       " LEFT SQUARE BRACKET
 <A-char-0x005d>	    <char-0x005d>       " RIGHT SQUARE BRACKET
+
+"	The CTRL key pressed
+<C-char-0x005b>	    <char-0x001b>       " ESCAPE
+<C-char-0x0445>	    <char-0x001b>       " ESCAPE
+<C-char-0x005d>	    <char-0x001d>       " INFORMATION SEPARATOR THREE (group separator)
+<C-char-0x044a>	    <char-0x001d>       " INFORMATION SEPARATOR THREE (group separator)
 
 "	The SHIFT and ALT keys pressed
 <A-char-0x007b>	    <char-0x007b>       " LEFT CURLY BRACKET
