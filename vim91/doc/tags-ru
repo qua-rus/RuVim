@@ -170,7 +170,6 @@
 40.1	usr_40.rux	/*40.1*
 40.2	usr_40.rux	/*40.2*
 40.3	usr_40.rux	/*40.3*
-:syn-default-override	usr_06.rux	/*:syn-default-override*
 :syn-manual	usr_06.rux	/*:syn-manual*
 <>	intro.rux	/*<>*
 <A-	intro.rux	/*<A-*
@@ -178,7 +177,6 @@
 <Bslash>	intro.rux	/*<Bslash>*
 <C-	intro.rux	/*<C-*
 <CSI>	intro.rux	/*<CSI>*
-<D-	intro.rux	/*<D-*
 <EOL>	intro.rux	/*<EOL>*
 <Enter>	intro.rux	/*<Enter>*
 <Esc>	intro.rux	/*<Esc>*
@@ -191,7 +189,6 @@
 <lt>	intro.rux	/*<lt>*
 <xCSI>	intro.rux	/*<xCSI>*
 ATTENTION	usr_11.rux	/*ATTENTION*
-Bram	intro.rux	/*Bram*
 CTRL-\_CTRL-G	intro.rux	/*CTRL-\\_CTRL-G*
 CTRL-\_CTRL-N	intro.rux	/*CTRL-\\_CTRL-N*
 CTRL-{char}	intro.rux	/*CTRL-{char}*
@@ -204,7 +201,6 @@ Ex-mode	intro.rux	/*Ex-mode*
 FAQ	intro.rux	/*FAQ*
 ICCF	uganda.rux	/*ICCF*
 Kibaale	uganda.rux	/*Kibaale*
-Moolenaar	intro.rux	/*Moolenaar*
 Neovim	intro.rux	/*Neovim*
 Normal	intro.rux	/*Normal*
 Normal-mode	intro.rux	/*Normal-mode*
@@ -241,6 +237,7 @@ c_CTRL-\_CTRL-N	intro.rux	/*c_CTRL-\\_CTRL-N*
 carriage-return	intro.rux	/*carriage-return*
 charity	uganda.rux	/*charity*
 command-mode	intro.rux	/*command-mode*
+comment-install	usr_05.rux	/*comment-install*
 control	intro.rux	/*control*
 copying	uganda.rux	/*copying*
 copyright	uganda.rux	/*copyright*
@@ -278,7 +275,9 @@ function_key	intro.rux	/*function_key*
 gQ	intro.rux	/*gQ*
 gross-national-happiness	intro.rux	/*gross-national-happiness*
 help-summary	usr_02.rux	/*help-summary*
+help-tags	tags-ru	1
 hjkl	usr_02.rux	/*hjkl*
+hohlsearch-install	usr_05.rux	/*hohlsearch-install*
 home	intro.rux	/*home*
 how-do-i	howto.rux	/*how-do-i*
 how-to	howto.rux	/*how-to*
@@ -347,6 +346,7 @@ sponsor.txt	sponsor.rux	/*sponsor.txt*
 standard-plugin	usr_05.rux	/*standard-plugin*
 subscribe-maillist	intro.rux	/*subscribe-maillist*
 swap-exists-choices	usr_11.rux	/*swap-exists-choices*
+syn-default-override	usr_06.rux	/*syn-default-override*
 syntax-printing	usr_06.rux	/*syntax-printing*
 tab	intro.rux	/*tab*
 tutor	usr_01.rux	/*tutor*
@@ -387,6 +387,7 @@ vim-dev	intro.rux	/*vim-dev*
 vim-mac	intro.rux	/*vim-mac*
 vim-modes	intro.rux	/*vim-modes*
 vim-modes-intro	intro.rux	/*vim-modes-intro*
+vim-security	intro.rux	/*vim-security*
 vim-use	intro.rux	/*vim-use*
 vim_announce	intro.rux	/*vim_announce*
 vim_dev	intro.rux	/*vim_dev*
@@ -398,7 +399,6 @@ vimrc-intro	usr_05.rux	/*vimrc-intro*
 vimrc_example.vim	usr_05.rux	/*vimrc_example.vim*
 vimtutor	usr_01.rux	/*vimtutor*
 vote-for-features	sponsor.rux	/*vote-for-features*
-votes-counted	sponsor.rux	/*votes-counted*
 window-contents	intro.rux	/*window-contents*
 wrap-off	intro.rux	/*wrap-off*
 www	intro.rux	/*www*
